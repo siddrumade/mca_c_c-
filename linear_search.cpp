@@ -17,7 +17,7 @@ int main()
 {
 	int arr[] = { 3, 4, 1, 7, 5 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	int x = 4;
+	int x = 3;
 
 	int index = search(arr, n, x);
 	if (index == -1)
